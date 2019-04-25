@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/burger"
+    tools:context="com.example.user.foodorder.AddFood">
+
+    <ImageButton
+        android:id="@+id/addimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/add1"
+        android:onClick="OnImageClicked"
+        />
+    <EditText
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/addimage"
+        android:textColorHint="#000"
+        android:hint="Add Food Name "
+        android:textSize="15dp"
+        />
+    <EditText
+        android:id="@+id/pricetxt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Add price"
+        android:textColorHint="#000"
+        android:layout_toRightOf="@id/nametext"
+         />
+    <EditText
+        android:id="@+id/descrb"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Add Discription"
+        android:textColorHint="#000"
+        android:layout_below="@id/addimage"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="ADD ITEM TO MENU"
+         android:background="#50b6af"
+         android:onClick="additembuttonclicked" />
+
+
+</LinearLayout>

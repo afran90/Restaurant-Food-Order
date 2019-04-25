@@ -1,0 +1,29 @@
+
+Project Title :	 Restaurant Food Order
+
+Abstract :	
+This project is mainly a resturant base system.A customer will visit a restaurant .only then he/she can use the system to order food from restaurant. 
+This  Restaurant Food order project has main two modules.
+
+1.Food Order Taker/Owner.
+1.Customer/client.
+
+Food Order Taker/Owner:
+
+Owner Functionalities:
+Login
+Add Food menu
+Edit Food menu
+take orders
+delete orders
+
+customer Functionalities:
+can see menu.
+can give order.
+can give food review.
+
+Project Type : Android.
+
+Technology :	Android Studio
+
+Database :	Firebase

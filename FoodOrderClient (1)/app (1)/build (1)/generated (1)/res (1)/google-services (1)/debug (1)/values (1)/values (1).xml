@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">216606405773-a6l307ggqfhv218a4i246nr2i1o052vn.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://foodorder-4ff6c.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">216606405773</string>
+    <string name="google_api_key" translatable="false">AIzaSyAo_SpbreiGMSYZJQG-GtGZVJjDWko-S3s</string>
+    <string name="google_app_id" translatable="false">1:216606405773:android:681a831ca1dcaf28</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAo_SpbreiGMSYZJQG-GtGZVJjDWko-S3s</string>
+    <string name="google_storage_bucket" translatable="false">foodorder-4ff6c.appspot.com</string>
+    <string name="project_id" translatable="false">foodorder-4ff6c</string>
+</resources>
